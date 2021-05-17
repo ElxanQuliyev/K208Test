@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:85%;
+    margin:auto
+}
+.clear{
+    clear:both
+}
+/*header start*/
+
+.header{
+    background:#162254  
+}
+.header .logo{
+    float:left;
+    padding:20px;
+}
+.header .menu{
+    float:right
+}
+.header .menu ul{
+    list-style: none;
+}
+.header .menu ul li a{
+    color:#fff;
+    text-decoration: none;
+    transition: .3s;
+    
+}
+.header .menu ul li a:hover{
+    color:orangered;
+}
+
+.header .menu ul li .nav-client{
+    background: orangered;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.header .menu ul li .nav-client:hover{
+    background: #fff;
+}
+
+.header .menu ul li{
+    float:left;
+    color:#fff;
+    padding:20px;
+    font-size: 18px;
+    font-weight:700;
+}
+/*header end*/
+
+/* Slider start */
+.slider{
+    background:url(../img/1.jpg);
+    background-size: cover;
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    position:relative
+}
+.slider-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    background: #162254;
+    opacity:.5
+}
+.slider .slider-left h1{
+    font-size: 60px;
+}
+.slider .slider-left ul{
+    margin: 30px 0;
+    list-style:none;
+}
+.slider .slider-left p{
+    font-weight: 700;
+    font-size: 24px;
+    margin:15px
+}
+.slider .slider-left ul li{
+    padding: 4px 0;
+}
+.slider .slider-left ul li i{
+    color:orangered;
+    margin-right: 15px;
+}
+.slider .slider-left a{
+    color:#fff;
+    text-decoration:none;
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid orangered;
+    color:orangered;
+    transition: .3s;
+}
+.slider .slider-left a:hover{
+    background: orangered;
+    color:#fff;
+}
+.slider .slider-left,
+.slider .slider-right{
+    float:left;
+    margin-top: 130px;
+    position: relative;
+    z-index: 5;
+
+}
+.slider .slider-left{
+    width:70%
+}
+.slider .slider-right{
+    width: 30%;
+}
+.slider .slider-right .right-order{
+    background:#ff00004a;
+    padding:60px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Slider end*/
+
+
